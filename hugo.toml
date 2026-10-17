@@ -1,7 +1,7 @@
 baseURL = "https://xiaopangziqiuzhang.github.io/"
 title = "xpz 的博客"
 theme = "hugo-coder"
-languageCode = "zh-cn"
+locale = "zh-cn"
 defaultContentLanguage = "zh-cn"
 enableEmoji = true
 
