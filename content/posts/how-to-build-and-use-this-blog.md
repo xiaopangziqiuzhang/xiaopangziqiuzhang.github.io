@@ -4,6 +4,8 @@ title = "博客搭建与使用指南"
 description = "本站的技术栈、搭建过程、仓库结构、写作与发布流程，一篇看懂。"
 tags = ["Hugo", "GitHub Pages", "教程"]
 categories = ["教程"]
+series = ["博客使用"]
+weight = 1
 +++
 
 这篇文章记录本站（[xiaopangziqiuzhang.github.io](https://xiaopangziqiuzhang.github.io/)）是如何从零搭建起来的，以及日常如何写文章、预览和发布。既是给自己的备忘，也希望能帮到想搭个人博客的你。
