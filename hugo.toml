@@ -1,0 +1,61 @@
+baseURL = "https://xiaopangziqiuzhang.github.io/"
+title = "xpz 的博客"
+theme = "hugo-coder"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+enableEmoji = true
+
+[pagination]
+pagerSize = 6
+
+[markup]
+[markup.highlight]
+noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+author = "xpz"
+description = "xpz 的个人博客"
+keywords = "blog,developer,personal"
+dateFormat = "2006-01-02"
+since = 2026
+colorScheme = "auto"
+hideColorSchemeToggle = false
+maxSeeAlsoItems = 5
+customCSS = []
+customSCSS = []
+customJS = []
+customRemoteJS = []
+
+[taxonomies]
+category = "categories"
+series = "series"
+tag = "tags"
+author = "authors"
+
+[[params.social]]
+name = "GitHub"
+icon = "fa-brands fa-github fa-2x"
+weight = 1
+url = "https://github.com/xiaopangziqiuzhang/"
+
+[[params.social]]
+name = "RSS"
+icon = "fa-solid fa-rss fa-2x"
+weight = 2
+url = "https://xiaopangziqiuzhang.github.io/index.xml"
+rel = "alternate"
+type = "application/rss+xml"
+
+[[menu.main]]
+name = "关于"
+url = "about/"
+weight = 1
+
+[[menu.main]]
+name = "文章"
+url = "posts/"
+weight = 2
